@@ -5,6 +5,10 @@ import BehavioralPatterns.CommandPattern.impl.SellStock;
 
 public class CommandPatternDemo {
 
+    /**
+     * 命令模式：将行为请求者（Broker）和行为实现者（Order）解耦
+     * @param args
+     */
     public static void main(String[] args) {
         Broker broker = new Broker();
 
